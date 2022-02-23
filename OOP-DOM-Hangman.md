@@ -62,7 +62,8 @@ class Word {
 /* GAME OBJECT HERE */
 
 const game = {
-  currentWord: "",
+  print("Let's play Hangman")
+  currentWord: "Runner",
   guessedLetters: [],
   guessesRemaining: 8,
   startGame() {
